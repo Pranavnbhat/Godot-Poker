@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://dpwrxxjbyoma4"]
+
+[ext_resource type="Script" uid="uid://dlo1wvw3ubg6o" path="res://scripts/main.gd" id="1_rvslj"]
+[ext_resource type="Texture2D" uid="uid://c3guy2p2k64cu" path="res://data/graphics/table.png" id="2_0bbpv"]
+[ext_resource type="PackedScene" uid="uid://cko7xpq0u3luw" path="res://scenes/Deck.tscn" id="3_rarhs"]
+[ext_resource type="PackedScene" uid="uid://befir3oyys2h8" path="res://scenes/Dealer.tscn" id="4_rarhs"]
+[ext_resource type="PackedScene" uid="uid://w8ujx16v7wk3" path="res://scenes/BettingRound.tscn" id="5_vcsgt"]
+
+[node name="main" type="Node2D" unique_id=369467670]
+script = ExtResource("1_rvslj")
+
+[node name="PokerTable" type="Node2D" parent="." unique_id=262108785]
+
+[node name="Sprite2D" type="Sprite2D" parent="PokerTable" unique_id=19850878]
+position = Vector2(640, 360)
+scale = Vector2(0.76555026, 0.76514345)
+texture = ExtResource("2_0bbpv")
+
+[node name="Deck" parent="." unique_id=724454380 instance=ExtResource("3_rarhs")]
+
+[node name="Dealer" parent="." unique_id=611623649 instance=ExtResource("4_rarhs")]
+
+[node name="BettingRound" parent="." unique_id=1647235754 instance=ExtResource("5_vcsgt")]

@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://cgu442bxfyvxu"]
+
+[ext_resource type="Script" uid="uid://dxoyy16wgadf8" path="res://scripts/pot.gd" id="1_ynmsd"]
+
+[node name="Pot" type="Node2D" unique_id=641705281]
+script = ExtResource("1_ynmsd")

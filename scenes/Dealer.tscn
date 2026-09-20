@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://befir3oyys2h8"]
+
+[ext_resource type="Script" uid="uid://doldwudmuqsf" path="res://scripts/dealer.gd" id="1_khaku"]
+
+[node name="Dealer" type="Node2D" unique_id=611623649]
+script = ExtResource("1_khaku")

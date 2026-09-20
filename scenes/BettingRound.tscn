@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://w8ujx16v7wk3"]
+
+[ext_resource type="Script" uid="uid://dug2v03r2k235" path="res://scripts/betting_round.gd" id="1_sf5g6"]
+
+[node name="BettingRound" type="Node2D" unique_id=1647235754]
+script = ExtResource("1_sf5g6")

@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://da0aobgb4q64k"]
+
+[ext_resource type="Script" uid="uid://d115h5ndyvs8a" path="res://scripts/card_display.gd" id="1_ukggq"]
+[ext_resource type="Texture2D" uid="uid://cvbhtrarudxo8" path="res://data/graphics/poker_cards.png" id="2_hwclh"]
+
+[node name="CardDisplay" type="Node2D" unique_id=33546098]
+z_index = 1
+script = ExtResource("1_ukggq")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1227788123]
+position = Vector2(626, 395)
+texture = ExtResource("2_hwclh")
+region_enabled = true
+region_rect = Rect2(0, 0, 48, 64)
